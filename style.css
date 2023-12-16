@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    background-color: #394a59;
+    text-align: center;
+    margin: 5px 5px 10px 5px;
+    color: white;
+}
+
+.header a{
+    margin: 0 0 0 5px;
+}
+
+hr{
+    width: 50%;
+    height: 5px;
+    background-color: gray;
+    margin: 20px auto;
+}
+
+h2{
+    text-align: center;
+    color: #996633;
+}
+
+h4{
+    margin: 15px 0 10px 10px;
+}
+
+.special .list{
+    margin: 15px 0 5px 50px;
+}
+
+.special ul{
+    color: blue;
+}
+
+.about p{
+    width: 40%;
+    text-align: right;
+    margin: 0 5px 0 auto;
+}
+
+.menu td{
+    padding-left: 15px;
+}
+
+img{
+    margin-left: 5px;
+}
+
+.footer p{
+    text-align: center;
+    margin: 10px 0 10px 0;
+}
