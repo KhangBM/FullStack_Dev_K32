@@ -1,0 +1,398 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:ital@1&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+}
+
+nav {
+  height: 10%;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 300px 0 300px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  transition: 0.5s;
+}
+nav h1 {
+  font-size: 50px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+nav ul {
+  width: 700px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+  padding-left: 200px;
+}
+nav ul li {
+  font-size: 30px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+nav ul li:hover {
+  color: #da722c;
+  transition: 0.5s;
+}
+nav ul button {
+  color: white;
+  background-color: #023047;
+  font-size: 30px;
+  width: 150px;
+  height: 50px;
+  margin-top: 28px;
+  border-radius: 20px;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+}
+
+.scroll {
+  background-color: #070917;
+  width: 70%;
+  height: 10%;
+  text-align: center;
+  margin: auto;
+  border-radius: 0 0 10px 10px;
+  padding: 0 50px 0 50px;
+  z-index: 2;
+}
+
+.home {
+  height: 100vh;
+  background: linear-gradient(to bottom, #6f7dfb, #26308c);
+  display: flex;
+  flex-direction: row;
+}
+.home .left {
+  position: relative;
+  width: 60%;
+  height: 80%;
+  margin-top: 150px;
+  padding-left: 300px;
+  color: white;
+}
+.home .left h1 {
+  margin-top: 180px;
+  font-size: 50px;
+}
+.home .left p {
+  margin-top: 20px;
+  width: 400px;
+}
+.home .left button {
+  margin-top: 20px;
+  width: 150px;
+  height: 50px;
+  border: none;
+  border-radius: 20px;
+  background-color: #da722c;
+  color: white;
+  cursor: pointer;
+}
+.home .left .student {
+  width: 230px;
+  height: 120px;
+  background-color: white;
+  color: #023047;
+  text-align: center;
+  border-radius: 30px;
+  position: absolute;
+  right: 0;
+  top: 150px;
+  box-shadow: 10px 10px 0 0 rgba(38, 48, 140, 0.3);
+}
+.home .left .student h2 {
+  font-size: 50px;
+}
+.home .left .rating {
+  width: 230px;
+  height: 120px;
+  background-color: white;
+  color: #023047;
+  text-align: center;
+  border-radius: 30px;
+  position: absolute;
+  right: 50px;
+  top: 380px;
+  box-shadow: 10px 10px 0 0 rgba(38, 48, 140, 0.5);
+}
+.home .left .rating h2 {
+  font-size: 50px;
+}
+.home .left .rating h2 i {
+  color: #ffce31;
+  font-size: 50px;
+}
+.home .right {
+  width: 40%;
+  height: 80%;
+  margin-top: 185px;
+}
+.home .right img {
+  width: 400px;
+  position: absolute;
+  bottom: 0;
+}
+
+.about {
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+}
+.about .left {
+  width: 50%;
+  position: relative;
+}
+.about .left .line {
+  width: 30px;
+  height: 600px;
+  background-color: #023047;
+  border-radius: 50px;
+  margin: 60px 0 0 350px;
+}
+.about .left .women {
+  width: 400px;
+  height: 200px;
+  border-radius: 20px;
+  background-color: white;
+  position: absolute;
+  top: 130px;
+  left: 250px;
+  box-shadow: 0 10px 20px 5px rgba(0, 0, 0, 0.4);
+}
+.about .left .women .top {
+  height: 50%;
+  border-radius: 20px;
+  padding-left: 50px;
+  color: white;
+  background-color: #6f7cfa;
+  padding-top: 20px;
+}
+.about .left .women .bottom {
+  padding-left: 50px;
+  padding-top: 20px;
+}
+.about .left .women img {
+  width: 130px;
+  position: absolute;
+  right: 20px;
+  top: 60px;
+}
+.about .left .men {
+  width: 400px;
+  height: 180px;
+  border-radius: 20px;
+  background-color: white;
+  position: absolute;
+  top: 380px;
+  left: 300px;
+  box-shadow: 0 10px 20px 5px rgba(0, 0, 0, 0.4);
+}
+.about .left .men .top {
+  height: 40%;
+  border-radius: 20px;
+  padding-left: 50px;
+  color: white;
+  background-color: #da722c;
+  padding-top: 20px;
+}
+.about .left .men .bottom {
+  padding-left: 50px;
+  padding-top: 20px;
+}
+.about .left .men img {
+  width: 130px;
+  position: absolute;
+  right: 20px;
+  top: 40px;
+}
+.about .right {
+  width: 50%;
+  padding-top: 200px;
+}
+.about .right h1 {
+  font-size: 50px;
+}
+.about .right p {
+  margin-top: 10px;
+  width: 550px;
+}
+.about .right button {
+  margin-top: 20px;
+  width: 150px;
+  height: 50px;
+  border: none;
+  border-radius: 20px;
+  background-color: #da722c;
+  color: white;
+  cursor: pointer;
+}
+
+.service {
+  height: 80vh;
+  background: linear-gradient(to bottom, #6f7cfa, #26308c);
+  padding-top: 50px;
+}
+.service .product {
+  font-size: 50px;
+  color: white;
+  text-align: center;
+}
+.service .items {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 0 50px 0 50px;
+}
+.service .items .item {
+  width: 500px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radius: 30px;
+  position: relative;
+}
+.service .items .item img {
+  width: 400px;
+  border-radius: 30px;
+  box-shadow: 0 10px 20px 5px rgba(0, 0, 0, 0.3);
+}
+.service .items .item .text {
+  width: 400px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 10px 0 10px;
+}
+.service .items .item .text h2 {
+  font-size: 30px;
+}
+.service .items .item .text p {
+  font-size: 30px;
+}
+.service .items .item .text p i {
+  font-size: 30px;
+}
+.service .items hr {
+  width: 80%;
+  border: 5px solid #070917;
+  border-radius: 50px;
+  position: absolute;
+  bottom: 0;
+}
+.service button {
+  width: 150px;
+  height: 50px;
+  margin-top: 50px;
+  margin-left: 1275px;
+  border: none;
+  color: white;
+  border-radius: 20px;
+  background-color: #da722c;
+  cursor: pointer;
+}
+
+.app {
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+.app h1 {
+  font-size: 50px;
+}
+.app p {
+  margin-top: 10px;
+}
+.app .stores {
+  width: 800px;
+  height: 100px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.app .stores .store {
+  width: 350px;
+  height: 100px;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+}
+.app .stores .store img {
+  width: 80px;
+  margin: 0 15px 0 20px;
+}
+
+.footer {
+  height: 45vh;
+  background-color: black;
+  color: white;
+  padding: 100px 200px 0 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.footer ul {
+  color: #da722c;
+  list-style-type: none;
+  padding-bottom: 20px;
+}
+.footer ul li {
+  color: white;
+  margin-left: 20px;
+}
+.footer ul li i {
+  font-size: 40px;
+  margin-left: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.footer ul li .gmail {
+  width: 350px;
+  height: 40px;
+  position: relative;
+  margin-top: 10px;
+}
+.footer ul li .gmail input {
+  width: 350px;
+  height: 40px;
+  padding-left: 10px;
+  border-radius: 10px;
+  border: none;
+}
+.footer ul li .gmail button {
+  width: 100px;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  border-radius: 10px;
+  border: none;
+  background-color: #023047;
+  color: white;
+  cursor: pointer;
+}
+.footer ul p {
+  margin-top: 30px;
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */

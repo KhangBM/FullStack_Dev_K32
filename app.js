@@ -1,0 +1,10 @@
+$(document).ready(function(){
+    $(window).scroll(function(){
+        if($(window).scrollTop()){
+            $('nav').addClass('scroll')
+        }
+        else{
+            $('nav').removeClass('scroll')
+        }
+    });
+});
