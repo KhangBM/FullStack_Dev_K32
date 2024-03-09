@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* header */
+.header{
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+}
+.header .left{
+    width: 40vw;
+    margin-left: 100px;
+    cursor: pointer;
+}
+.header .right{
+    width: 60vw;
+    margin-right: 100px;
+}
+.right ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 25px;
+    font-weight: bold;
+}
+ul li{
+    cursor: pointer;
+}
+ul li:hover{
+    color: green;
+}
+/* contract */
+.contract{
+    width: 100vw;
+    height: 60vh;
+    background-image: url(./img/background.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+}
+.contract .left_contract{
+    width: 50vw;
+    padding: 180px 50px 0 100px;
+    display: flex;
+    flex-direction: column;
+}
+.left_contract p{
+    margin-right: 300px;
+    margin-top: 10px;
+}
+.left_contract .buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 40px 200px 0 0;
+}
+.buttons button{
+    width: 200px;
+    height: 50px;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.contract .right_contract{
+    width: 50vw;
+    height: 100%;
+}
+.right_contract img{
+    width: 400px;
+    margin: 120px 0 0 200px;
+    z-index: 1;
+}
+/* items */
+.items{
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+.items .item{
+    width: 350px;
+    height: 450px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+.item img{
+    width: 348px;
+    margin-bottom: 10px;
+}
+.item h2{
+    margin: 10px 0 10px 20px;
+}
+.item p{
+    margin: 0 20px 0 20px;
+}
+/* footer */
+.footer{
+    width: 100vw;
+    height: 5vh;
+    background-color: green;
+    position: relative;
+    margin: 100px 0 0 20px;
+    text-align: center;
+    padding: 15px;
+    font-size: 15px;
+    color: white;
+}
