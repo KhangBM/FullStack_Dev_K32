@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>QUAN LI SINH VIEN</h1>
+    <div id="control-student" class="form">
+        <form action="" id="info">
+            <label for="">ID</label>
+            <input type="text" id="student-id" placeholder="Mssv"><br>
+            <label for="">Name</label>
+            <input type="text" id="name" placeholder="Name"><br>
+            <label for="">Email</label>
+            <input type="text" id="email" placeholder="Email"><br>
+            <label for="">Math</label>
+            <input type="text" id="math" placeholder="Math"><br>
+            <label for="">Literature</label>
+            <input type="text" id="literature" placeholder="Literature"><br>
+            <label for="">English</label>
+            <input type="text" id="english" placeholder="English"><br>
+        </form>
+        <button onclick="addNewStudent()">Add Student</button>
+        <button onclick="resetStudents()">Delete</button>
+        <button onclick="updateStudents()">Update</button>
+    </div>
+    <table border="1" style="width: 800px; border-collapse: collapse;">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Average</th>
+                <th>Event</th>
+            </tr>
+        </thead>
+        <tbody id="table-body"></tbody>
+    </table>
+    <script src="./js/model/model.js"></script>
+    <script src="./js/controller/controller.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
